@@ -17,6 +17,6 @@ ADD . /usr/src/app
 
 RUN npm run build
 
-CMD ["pm2-runtime", "bin/index.js"]
+CMD ["pm2-runtime", "bin/src/server.js"]
 
 EXPOSE 8000
