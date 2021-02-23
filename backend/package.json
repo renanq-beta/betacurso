@@ -6,6 +6,7 @@
   "author": "Marcus Rodrigues",
   "license": "MIT",
   "scripts": {
+    "build": "NODE_ENV=prod&&tsc",
     "dev": "NODE_ENV=development nodemon --exec ts-node src/server.ts",
     "typeorm": "npx ts-node ./node_modules/typeorm/cli.js"
   },
